@@ -1,4 +1,12 @@
-/* add comment */
+/* This block changes all tags with the id "testid" to the color red */
+/* Using # tells CSS that you want to change a certain ID and not every instance of a tag */
 #testid {
-    color: red;
+    color: red; /* All lines in CSS are ended with a semicolon (;) */
 }
+
+
+/* Doing something like this, and just using a name of tag will change the color for itself and 
+every child tag where the option is applicable */
+/* body {
+    color: red;
+} */
